@@ -1,0 +1,17 @@
+table
+tr - rows
+td - cells
+
+//table[@class='dataTable'] - complete table
+//table[@class='dataTable']/tbody/tr[2]/td[3] - 2nd row,3rd col
+//table[@class='dataTable']/tbody/tr[2]/td - each cell of 2nd row
+//table[@class='dataTable']/tbody/tr - all the rows the table
+//table[@class='dataTable']/tbody/tr[3]/td - all cells in 3rd column
+//table[@class='dataTable']/tbody/tr/td - all the cells of the table
+//table[@class='dataTable']/tbody/tr[3]/td - all cells in 3rd row
+
+table[class='dataTable']
+table[class='dataTable'] tbody tr:nth-child(2) td:nth-child(3) - 2nd row,3rd col
+table[class='dataTable'] tbody tr:nth-child(3) td - all cells in 3rd column
+
+ 
